@@ -43,7 +43,10 @@ body {
     align-items: center;
 }
 
-.logo img {
+    .logo img {
+    height: 50px;
+}
+    
    .logo {
     display: flex;       /* Membuat elemen di dalamnya berjejer ke samping */
     align-items: center; /* Menyejajarkan logo dan teks tepat di tengah secara vertikal */
