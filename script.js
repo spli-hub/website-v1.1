@@ -48,8 +48,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Auto play
-    function startAutoPlay() {
-        slideInterval = setInterval(nextSlide, 5000);
+    function goToSlide(n) { ... }      // Pindah ke slide tertentu
+    function changeSlide(direction) {} // Maju/mundur 1 slide
+    setInterval(() => changeSlide(1), 5000) // Auto ganti tiap 5 detik
     }
 
     // Reset interval
